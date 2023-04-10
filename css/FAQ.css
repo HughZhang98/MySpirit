@@ -1,0 +1,144 @@
+body {
+  /* background-color: rgb(224, 211, 252); */
+}
+main {
+  /* width: 60%; */
+  margin: 4px auto 0px auto;
+  background-color: rgb(224, 211, 252);
+}
+header h3 {
+  margin: 0px;
+}
+#home_link {
+  border-bottom: none;
+}
+#FAQ_link {
+  border-bottom: 2px solid black;
+}
+
+#FAQ_box {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5%;
+}
+h1 {
+  padding-left: 20%;
+  padding-top: 5%;
+  color: white;
+  font-size: 2vw;
+}
+.card {
+  background-color: rgb(224, 211, 252);
+  border: none;
+}
+.card-body{
+  background-color: white;
+  padding-left: 4.5%;
+  /* padding-top: 5%; */
+  margin-top: 2%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.card-header h2 button{
+  font-size: 1.5vw;
+  color: black;
+  font-weight: bolder;
+}
+
+.card-header h2 button, .card-body{
+  color: black;
+}
+
+#headingOne, #headingTwo, #headingThree, #headingFour {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.FAQ_item, .card-header{
+  margin-top: 5%;
+  background-color: white;
+  padding: 3%;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.FAQ_item b {
+  font-size: 1.5vw;
+}
+
+.accordion .card .h2 button {
+  font-size: 1.5vw;
+}
+#contact_box {
+  width: 100%;
+  background-color: white;
+
+}
+#contact_box h3 {
+  color: black;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* margin: 0px; */
+}
+#contact_box form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact_box form input {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 2% 0px;
+  padding: 3%;
+  background-color: rgb(217, 217, 217);
+  border: none;
+  font-size: 1vw;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+#contact_box form input:focus {
+  outline: 4px solid rgb(255, 199, 183);
+}
+#contact_box form #sbtn{
+  background-color: rgb(255, 199, 183);
+  color: white;
+  cursor: pointer;
+}
+#contact_box form textarea{
+  font-size: 1vw;
+  padding: 5% 0px;
+  margin-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  resize: vertical;
+  background-color: rgb(217, 217, 217);
+  border: none;
+  text-align: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+#contact_box form textarea:focus {
+  outline: 4px solid rgb(255, 199, 183);
+  text-align: left;
+}

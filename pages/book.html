@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/book.css">
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="../img/team_fish.png" alt="">
+        <b>Team Fish</b>
+        <!-- <b>Restore MySpirit</b> -->
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link" onclick="toHome()">Home</li>
+          <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch" onclick="toLog()">Log in</li>
+          <li id="nav_book">Book Now</li>
+          <img class="loge" src="../img/team_fish.png" alt="" onclick="toLog()">
+        </ul>
+        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Book your appointment</h1>
+
+    <div id="book_box">
+      <div id="date_box">
+        <input type="datetime-local" id="book_date" value="2023-04-10">
+        <input id='date_sbtn' type="button" value="OK" onclick="sub_booking()">
+      </div>
+      <div id="address">
+        <p>
+          Location: <br>
+          Restore MySpirit HQ<br>
+          Address: 123 Address Road<br>
+          Melbourne 3000 Vic<br>
+          Australia
+          </p>
+      </div>
+    </div>    
+  </main>
+
+  <footer>
+    <div id="info_box">
+      <h2>Restore</h2>
+      <p>123 Address Road <br> Melbourne 3000 VIC <br> Australia</p>
+    </div>
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    
+  </footer>
+
+  <script src="../js/jquery-3.6.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="img/team_fish.png" alt="">
+        <b>Team Fish</b>
+        <!-- <b>Restore MySpirit</b> -->
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link">Home</li>
+          <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch" onclick="toLog()">Log in</li>
+          <li id="nav_book" onclick="toBook()">Book Now</li>
+
+          <img id="user" src="img/team_fish.png" alt="user" onclick="toLog()">
+        </ul>
+        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="main_img">
+      <img src="img/ps_home_background.jpg" alt="">
+      <!-- <span>Restore your spirit <br> today with our <br> healing and <br> spiritual services</span> -->
+    </div>
+    
+    <div id="our_services">
+      <h1>Our Services</h1>
+      <div id="hr"></div>
+      <div id="ser_dis">
+        <div class="ser_item">
+          <div>
+            <img src="img/os1.png" alt="">
+            <p>Clairvoyance and Psychic Medium</p>
+          </div>
+          <div class="ser_info">
+            <p>Our clairvoyance and psychic medium services do this that and the other. This is example text that I am writing on the spot to fill space, to pretend we have a large description of this service</p>
+          </div>
+        </div>
+
+        <!-- <div id="hr"></div> -->
+
+        <div class="ser_item">
+          <div class="ser_info">
+            <p>Our clairvoyance and psychic medium services do this that and the other. This is example text that I am writing on the spot to fill space, to pretend we have a large description of this service</p>
+          </div>
+          <div>
+            <p>Traditional Japanese Reiki Healing</p>
+            <img src="img/os2.png" alt="">
+          </div>
+        </div>
+
+        <div class="ser_item">
+          <div class="ser_info">
+            <p>Interested? Book here today!</p>
+          </div>
+          <div>
+            <p id="ser_book" onclick="toBook()">Book Now</p>
+          </div>
+        </div>
+      </div> 
+
+    </div>
+  </main>
+
+  <footer>
+    <div id="info_box">
+      <h2>Restore</h2>
+      <p>123 Address Road <br> Melbourne 3000 VIC <br> Australia</p>
+    </div>
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    
+  </footer>
+
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

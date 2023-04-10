@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/log.css">
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="../img/team_fish.png" alt="">
+        <b>Team Fish</b>
+        <!-- <b>Restore MySpirit</b> -->
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link" onclick="toHome()">Home</li>
+          <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch">Log in</li>
+          <li id="nav_book">Book Now</li>
+          <img class="loge" src="../img/team_fish.png" alt="" onclick="toLog()">
+        </ul>
+        
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div id="log_box">
+      <div id="login_box">
+        <p>Log in to your account</p>
+        <input type="text" placeholder="User Name" id="login_email">
+        <input type="password" placeholder="Password" id="login_pass">
+        <button onclick="sub_login()">Log in</button>
+      </div>
+      <div id="hr_box"></div>
+      <div id="signup_box">
+        <p>Don’t have an account? <br>Sign up now</p>
+        <input type="text" placeholder="User Name" id="signup_name">
+        <input type="email" placeholder="Email" id="signup_email">
+        <input type="password" placeholder="Password" id="signup_pass">
+        <button onclick="sub_signup()">Sign up</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="info_box">
+      <h2>Restore</h2>
+      <p>123 Address Road <br> Melbourne 3000 VIC <br> Australia</p>
+    </div>
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    
+  </footer>
+  <!-- <script src="../js/jquery-3.6.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script> -->
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>

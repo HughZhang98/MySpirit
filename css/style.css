@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+header {
+  background-color: white;
+}
+
+header h3 {
+  color: white;
+  background-color: rgb(200, 183, 250);
+  font-size: 1vw;
+  font-weight: normal;
+  height: auto;
+  padding: 0.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header #nav {
+  padding: 0px 3%;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  box-shadow: 1px 2px 3px rgb(82, 77, 77);
+  font-size: 1vw;
+
+}
+header #nav_login_ch {
+  display: none;
+}
+header #nav #nav_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+}
+header #nav #nav_left b {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+header #nav #nav_left img {
+  padding-bottom: 0px;
+}
+/* phone */
+@media screen and (max-width: 551px) {
+  header #nav #nav_left, header #nav_right img {
+    display: none;
+  }
+  header #nav #nav_right{
+    width: 100%;
+  }
+  header #nav_login_ch {
+    display: block;
+    text-align: center;
+    width: 15.5%;
+    box-shadow: 1px 2px 3px rgb(82, 77, 77);
+    background-color: rgb(200, 183, 250);
+    color: white;
+    border-radius: 20px;
+  }
+}
+
+
+#home_link {
+  border-bottom: 2px solid black;
+}
+
+#ser_book, #home_link {
+ cursor: pointer;
+}
+
+header .loge, #user {
+  cursor: pointer;
+  width: 50px;
+  /* padding-top: 15px; */
+}
+header #nav_right img{
+    padding-top: 15px;
+}
+header div ul li{
+  float: left;
+  margin: 20px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+header #nav_book, #ser_book{
+  padding: 10px;
+  box-shadow: 1px 2px 3px rgb(82, 77, 77);
+  background-color: rgb(255, 199, 183);
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/* phone */
+@media screen and (max-width: 508px) {
+  header #nav #nav_book {
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* main */
+#main_img {
+  margin-top: 4px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* position: absolute; */
+}
+/* #main_img span{
+  position: relative;
+  top: -20%;
+  left: 60px;
+  color: white;
+  font-size: 2.5vw;
+  float: left;
+
+} */
+#main_img img {
+  width: 100%;
+}
+#our_services {
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+#our_services h1{
+  font-size: 2vw;
+  text-align: center;
+  margin: 3% 0px;
+}
+#our_services #hr{ 
+  border: 1.5px solid black;
+  margin-bottom: 3%;
+  width: 30%;
+  margin: 3% auto;
+}
+
+#ser_dis {
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#ser_dis img {
+  border-radius: 25px;
+  width: 100%;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+#ser_dis .ser_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+}
+
+#ser_dis .ser_item div { 
+  /* border: 1px solid black; */
+  width: 50%;
+  padding: 5%;
+}
+
+#ser_dis .ser_item .ser_info p{ 
+  margin: 3%;
+} 
+
+#ser_dis .ser_item #ser_book {
+  /* box-shadow: 1px 2px 3px rgb(82, 77, 77);
+  background-color: rgb(255, 199, 183);
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 20px; */
+  padding: 10% 0px;
+}
+
+footer {
+  margin-top: 30px;
+  color: white;
+  background-color: rgb(200, 183, 250);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3% 5%;
+  font-size: 1.5vw;
+  align-items: center;
+  font-weight: bolder;
+}
+
+footer #info_box p{
+  margin-top: 30px;
+  font-size: 1vw;
+  font-weight: normal;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: rgb(217, 217, 217);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+@media screen and (max-width: 320px) {
+  footer li {
+  margin: 10px;
+  }
+  /* #nav_login_ch {
+    padding-right: 30%;
+    padding-left: 30%;
+  } */
+}

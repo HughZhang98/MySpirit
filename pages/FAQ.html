@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/FAQ.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> -->
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="../img/team_fish.png" alt="">
+        <b>Team Fish</b>
+        <!-- <b>Restore MySpirit</b> -->
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link" onclick="toHome()">Home</li>
+          <li id="FAQ_link">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch" onclick="toLog()">Log in</li>
+          <li id="nav_book" onclick="toBook()">Book Now</li>
+          <img class="loge" src="../img/team_fish.png" alt="" onclick="toLog()">
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1>Frequently Asked Questions</h1>
+
+    <div id="FAQ_box">
+      <!-- <div class="FAQ_item">
+        <b>What is Clairvoyance?</b>
+      </div>
+
+      <div class="FAQ_item">
+        <b>What is Reiki?</b>
+      </div>
+
+      <div class="FAQ_item">
+        <b>How do I make a booking?</b>
+      </div>
+
+      <div class="FAQ_item">
+        <b>What should I expect from each service?</b>
+      </div> -->
+      
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is Clairvoyance?
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              What is Clairvoyance?
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is Reiki?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer commodo tortor ante, eu sollicitudin magna maximus sed. Ut dictum tortor a massa tincidunt, eu pellentesque diam accumsan. Quisque arcu arcu, feugiat quis vehicula vel, elementum et odio. Pellentesque tincidunt egestas dignissim. Sed in ex lacinia, venenatis ligula quis, finibus justo.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How do I make a booking?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              How do I make a booking?
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What should I expect from each service?
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              What should I expect from each service?
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="contact_box">
+      <h3>Didn’t answer all your questions?</h3>
+
+      <form action="">
+        <input type="text" name="name" placeholder="NAME">
+        <input type="email" name="emal" placeholder="EMAIL">
+        <textarea name="question" id="" cols="30" rows="10" placeholder="QUESTION">
+
+        </textarea>
+        <!-- <input type="textarea" name="emal" value="QUESTION"> -->
+        <input id='sbtn'type="button" value="Contact Us" onclick="sub_que()">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div id="info_box">
+      <h2>Restore</h2>
+      <p>123 Address Road <br> Melbourne 3000 VIC <br> Australia</p>
+    </div>
+    <div>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    
+  </footer>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script> -->
+  <script src="../js/jquery-3.6.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>

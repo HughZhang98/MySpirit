@@ -1,0 +1,80 @@
+main {
+  /* width: 60%; */
+  margin: 4px auto 0px auto;
+  background-color: rgb(255, 199, 183);
+  padding: 5% 0 5% 0;
+}
+#home_link {
+  border-bottom: none;
+}
+
+footer {
+  margin-top: 0px;
+}
+
+#log_box {
+  margin: 5% auto 5% auto;
+  background-color: white;
+  padding: 3% 5%;
+  width: 80%;
+  box-shadow: 1px 2px 3px black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#log_box p {
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#log_box input, button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(217, 217, 217);
+  margin: 10% 0px;
+  font-size: 1vw;
+  padding: 2%;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+#log_box input:focus {
+  outline: 4px solid rgb(255, 199, 183);
+}
+#log_box button {
+  background-color: rgb(255, 199, 183);
+  color: white;
+  cursor: pointer;
+}
+
+#login_box, #signup_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  
+}
+
+#hr_box {
+  margin: 0px 10%;
+  border-right: 4px solid rgb(255, 199, 183);
+}
+/* phone */
+@media screen and (max-width: 980px) {
+  #hr_box {
+    margin: 5% 10%;
+    width: 100%;
+    border-bottom: 4px solid rgb(255, 199, 183);
+  }
+}
+

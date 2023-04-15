@@ -1,0 +1,10 @@
+#left_nav #bookings_nav {
+  background-color: white;
+}
+#left_nav #faq_nav {
+  background-color: rgb(245, 245, 245);
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}

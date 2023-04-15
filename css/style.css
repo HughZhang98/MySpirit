@@ -5,6 +5,9 @@
 li {
   list-style: none;
 }
+button {
+  cursor: pointer;
+}
 
 header {
   background-color: white;
@@ -29,6 +32,7 @@ header #nav {
   flex-wrap: wrap;
   box-shadow: 1px 2px 3px rgb(82, 77, 77);
   font-size: 1vw;
+  font-family: sans-serif;
 
 }
 header #nav_login_ch {
@@ -47,6 +51,9 @@ header #nav #nav_left b {
 header #nav #nav_left img {
   padding-bottom: 0px;
 }
+/* header #nav #nav_right img {
+  padding-bottom: 0px;
+} */
 /* phone */
 @media screen and (max-width: 551px) {
   header #nav #nav_left, header #nav_right img {
@@ -234,4 +241,50 @@ footer li {
     padding-right: 30%;
     padding-left: 30%;
   } */
+}
+
+#left_nav {
+  width: 25%;
+  background-color: white;
+  margin-top: 4px;
+  /* position: relative; */
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+#left_nav div{
+  /* background-color: aqua; */
+  padding: 30px 10%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 1.25vw;
+  cursor: pointer;
+}
+
+#left_nav div img{
+  height: 20px;
+  margin: 5%;
+}
+
+#left_nav div span{
+  margin: 5%;
+}
+#left_nav #logout{
+  margin: 150px auto;
+  box-shadow: 1px 2px 3px rgb(82, 77, 77);
+  background-color: rgb(255, 199, 183);
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#main_box {
+  margin-top: 4px;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  padding: 7%;
 }

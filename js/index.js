@@ -17,6 +17,26 @@ function toLog() {
   window.location.href = "../pages/Log.html";
 }
 
+function toLogout() {
+  alert("Success!")
+  window.location.href = "../index.html";
+}
+
+function toAdBookings () {
+  window.location.href = "../pages/admin_book.html"
+}
+
+function toAdBlog() {
+  window.location.href = "../pages/admin_blog.html"
+}
+function toAdquestion() {
+  window.location.href = "../pages/admin_questions.html"
+}
+
+function toAdfaq () {
+  window.location.href = "../pages/admin_FAQ.html"
+}
+
 //sub question
 function sub_que() {
   alert ("Success")
@@ -40,14 +60,19 @@ function sub_login() {
   } else if (pass == null || pass == undefined || pass == ''){
     alert("Please enter your vaild password!")
   } else {
-    alert("Welcome "+email);
-    setTimeout(2500);
-    window.location.href = "../index.html";
-    // setTimeout (function () {
-      // window.alert=function(){}
-    //   window.location.href = "../index.html";
-    // },2500);
-    
+    if (email == "admin" & pass == "admin") {
+      alert("Welcome "+email);
+      setTimeout(2500);
+      window.location.href = "../pages/admin_book.html";
+    } else {
+      alert("Welcome "+email);
+      setTimeout(2500);
+      window.location.href = "../index.html";
+      // setTimeout (function () {
+        // window.alert=function(){}
+      //   window.location.href = "../index.html";
+      // },2500);
+    }
   }
 }
 //sign up

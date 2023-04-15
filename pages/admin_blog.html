@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/admin_blog.css">
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="../img/team_fish.png" alt="">
+        <!-- <b>Team Fish</b> -->
+        <b>Restore MySpirit</b>
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link">Home</li>
+          <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch" onclick="toLog()">Log in</li>
+          <li id="nav_book" onclick="toBook()">Book Now</li>
+
+          <img id="user" src="../img/login.png" alt="user" onclick="toLog()">
+        </ul>
+        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="left_nav">
+      <div id="bookings_nav" onclick="toAdBookings()">
+       <img src="../img/Booking.png" alt="">
+       <span>Bookings</span>
+      </div>
+      <div id="blog_nav">
+       <img src="../img/Blog.png" alt="">
+       <span>Blog</span>  
+     </div>
+      <div id="questions_nav" onclick="toAdquestion()">
+       <img src="../img/Question.png" alt="">
+       <span>Questions</span>
+      </div>
+      <div id="faq_nav" onclick="toAdfaq()">
+       <img src="../img/FAQ.png" alt="">
+       <span>FAQ Management</span>
+      </div>
+      <div id="logout" onclick="toLogout()">
+       <p>Log out</p>
+      </div>
+     </div>
+
+     <div id="main_box">
+        <div id="post_view_box">
+          <div id="newpost_box">
+            <textarea name="" id="" cols="30" rows="3" placeholder="Start new post..."></textarea>
+            <button>Post</button>
+          </div>
+          <h2>Previous posts on your blog</h2>
+          <div class="posted_item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer commodo tortor ante, eu sollicitudin magna maximus sed. </p>
+            <button>Edit</button>
+          </div>
+
+          <div class="posted_item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer commodo tortor ante, eu sollicitudin magna maximus sed. </p>
+            <button>Edit</button>
+          </div>
+        </div>
+
+        <div id="count_box">
+          <div id="tnp_box">
+            <h3>Total Number of Posts</h3>
+            <span>35</span>
+          </div>
+          <div id="tnl_box">
+            <h3>Total Number of Posts</h3>
+            <span>202</span>
+          </div>
+        </div>
+     </div>
+  </main>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>

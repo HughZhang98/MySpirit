@@ -1,0 +1,47 @@
+#home_link {
+  border-bottom: none;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+#left_nav #bookings_nav {
+  background-color: rgb(245, 245, 245);
+}
+#main_box h1{
+  color: rgb(144, 144, 144);
+}
+
+.ad_bookings {
+  display: flex;
+  background-color: white;
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.ad_bookings img {
+  width: 50px;
+  height: 100%;
+  margin: 0 5%
+}
+
+
+.ad_bookings div h2{
+  margin-bottom: 10%;
+}
+
+.ad_bookings div button{
+  margin-top: 15%;
+  padding: 5% 10%;
+  border: none;
+  box-shadow: 1px 2px 3px rgb(82, 77, 77);
+  background-color: rgb(255, 199, 183);
+  color: white;
+  border-radius: 20px;
+  
+}

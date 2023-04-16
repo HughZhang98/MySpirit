@@ -1,3 +1,6 @@
+#home_link {
+  border-bottom: none;
+}
 #left_nav #bookings_nav {
   background-color: white;
 }

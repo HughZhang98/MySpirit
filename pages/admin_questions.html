@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Questions</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/admin_questions.css">
 </head>
@@ -55,10 +56,104 @@
       </div>
      </div>
 
-     <div id="main_box">
+    <div id="main_box">
+      <div id="addque_view_box">
+        <div id="newque_box">
+          <textarea name="" id="" cols="30" rows="3" placeholder="Start new post..."></textarea>
+          <button>Post</button>
+        </div>
+        <h2>Current FAQ Featured on Website</h2>
+        <div class="que_item">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
+            elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo
+            vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer
+            commodo tortor ante, eu sollicitudin magna maximus sed. </p>
+          <button>Edit</button>
+        </div>
 
-     </div>
+        <div class="que_item">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
+            elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo
+            vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer
+            commodo tortor ante, eu sollicitudin magna maximus sed. </p>
+          <button>Edit</button>
+        </div>
+      </div>
+      
+      <div id="inbox">
+        <div id="inbox_title">
+          <img src="../img/inbox.png" alt="">
+          <h3>Inbox</h3>
+        </div>
+
+        <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Hi RestoreMySpirit, I have a question abo.....
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Hi RestoreMySpirit, I have a question abo.....
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Hi RestoreMySpirit, I have a question abo.....
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                Hi RestoreMySpirit, I have a question abo.....
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Hi RestoreMySpirit, I have a question abo.....
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Hi RestoreMySpirit, I have a question abo.....
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Hi RestoreMySpirit, I have a question abo.....
+              </button>
+            </h2>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              Hi RestoreMySpirit, I have a question about the services that you offer. Am I able to book both of your services in one go? I want psychic medium and reiki healing. Thanks
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div>
   </main>
+  <script src="../js/jquery-3.6.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../js/index.js"></script>
 </body>
 </html>

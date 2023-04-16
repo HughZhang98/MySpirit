@@ -251,6 +251,7 @@ footer li {
   display: flex;
   height: 100%;
   flex-direction: column;
+  font-family: sans-serif;
 }
 
 #left_nav div{

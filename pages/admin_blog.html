@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/admin_blog.css">
 </head>
@@ -13,19 +14,19 @@
     <h3>Experience our healing and spiritual services today...</h3>
     <div id="nav">
       <div id="nav_left">
-        <img class="loge" src="../img/team_fish.png" alt="">
+        <img class="loge" src="../img/ball.png" alt="">
         <!-- <b>Team Fish</b> -->
         <b>Restore MySpirit</b>
       </div>
       <div id="nav_right">
         <ul>
-          <li id="home_link">Home</li>
+          <li id="home_link" onclick="toHome()">Home</li>
           <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
           <li id="blog_link" onclick="toBlog()">Blog</li>
           <li id="nav_login_ch" onclick="toLog()">Log in</li>
           <li id="nav_book" onclick="toBook()">Book Now</li>
-
-          <img id="user" src="../img/login.png" alt="user" onclick="toLog()">
+          <li id="user"><img src="../img/login.png" alt="user"></li>
+          <li id="username">Login</li>
         </ul>
         
       </div>
@@ -53,7 +54,7 @@
       <div id="logout" onclick="toLogout()">
        <p>Log out</p>
       </div>
-     </div>
+    </div>
 
      <div id="main_box">
         <div id="post_view_box">

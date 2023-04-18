@@ -1,6 +1,4 @@
-body {
-  /* background-color: rgb(224, 211, 252); */
-}
+
 main {
   /* width: 60%; */
   margin: 4px auto 0px auto;
@@ -45,7 +43,7 @@ h1 {
 }
 
 .card-header h2 button{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   color: black;
   font-weight: bolder;
 }

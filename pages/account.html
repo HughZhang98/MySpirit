@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/account.css">
+</head>
+<body>
+  <header>
+    <h3>Experience our healing and spiritual services today...</h3>
+    <div id="nav">
+      <div id="nav_left">
+        <img class="loge" src="../img/ball.png" alt="">
+        <!-- <b>Team Fish</b> -->
+        <b>Restore MySpirit</b>
+      </div>
+      <div id="nav_right">
+        <ul>
+          <li id="home_link" onclick="toHome()">Home</li>
+          <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
+          <li id="blog_link" onclick="toBlog()">Blog</li>
+          <li id="nav_login_ch">Log in</li>
+          <li id="nav_book" onclick="toBook()">Book Now</li>
+          <li id="user"><img src="../img/login.png" alt="user"></li>
+          <li id="username">Login</li>
+        </ul>
+        
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <h2>My Account</h2>
+    <div id="account_box">
+      <div id="account_nav">
+        <ul>
+          <li>My Booking</li>
+          <li id="accLogout" onclick="toLogout()"> Log out</li>
+        </ul>
+      </div>
+      <div id="account_info">
+        <div class="book_item" id="bitem1">
+          <div class="book_info">
+            <p><b>Traditional Japanese Reiki Healing Service</b></p>
+            <p><b>Date:</b> 23rd January 2023</p>
+            <p><b>Time:</b> 1pm - 2pm</p>
+            <p><b>Location:</b> Restore MySpirit HQ</p>
+            <p><b>Address:</b> 123 Address Road<br>
+            Melbourne 3000 Vic<br>
+            Australia</p>
+          </div>
+          <div class="book_option">
+            <p>17/04/2023</p>
+            <p>$159</p>
+            <button onclick="userDelBook()">Delete</button>
+          </div>
+        </div>
+
+        <div class="book_item">
+          <div class="book_info">
+            <p><b>Traditional Japanese Reiki Healing Service</b></p>
+            <p><b>Date:</b> 23rd January 2023</p>
+            <p><b>Time:</b> 1pm - 2pm</p>
+            <p><b>Location:</b> Restore MySpirit HQ</p>
+            <p><b>Address:</b> 123 Address Road<br>
+            Melbourne 3000 Vic<br>
+            Australia</p>
+          </div>
+          <div class="book_option">
+            <p>17/04/2023</p>
+            <p>$159</p>
+            <button>Delete</button>
+          </div>
+        </div>
+
+        <div class="book_item">
+          <div class="book_info">
+            <p><b>Traditional Japanese Reiki Healing Service</b></p>
+            <p><b>Date:</b> 23rd January 2023</p>
+            <p><b>Time:</b> 1pm - 2pm</p>
+            <p><b>Location:</b> Restore MySpirit HQ</p>
+            <p><b>Address:</b> 123 Address Road<br>
+            Melbourne 3000 Vic<br>
+            Australia</p>
+          </div>
+          <div class="book_option">
+            <p>17/04/2023</p>
+            <p>$159</p>
+            <button>Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+<script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>

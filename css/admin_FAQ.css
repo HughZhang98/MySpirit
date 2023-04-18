@@ -80,3 +80,38 @@ main {
   background-color: rgb(255, 199, 183);
   border-radius: 20px;
 }
+#main_box h2 {
+  color: rgb(144, 144, 144);
+}
+#main_box #addFAQ_box {
+  margin-top: 2%;
+  border-radius: 15px;
+  background-color: white;
+  padding: 2%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+#main_box #addFAQ_box input, #addFAQ_box textarea{
+  margin: 2.5% 0px;
+  border: none;
+  border-bottom: 2px solid rgb(82, 77, 77);
+  font-size: 1.3vw;
+}
+#main_box #addFAQ_box button {
+  background-color: rgb(255, 199, 183);
+  padding: 2%;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 1px 2px 3px black;
+  font-size: 1.5vw;  
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}

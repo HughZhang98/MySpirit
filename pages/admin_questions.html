@@ -14,19 +14,19 @@
     <h3>Experience our healing and spiritual services today...</h3>
     <div id="nav">
       <div id="nav_left">
-        <img class="loge" src="../img/team_fish.png" alt="">
+        <img class="loge" src="../img/ball.png" alt="">
         <!-- <b>Team Fish</b> -->
         <b>Restore MySpirit</b>
       </div>
       <div id="nav_right">
         <ul>
-          <li id="home_link">Home</li>
+          <li id="home_link" onclick="toHome()">Home</li>
           <li id="FAQ_link" onclick="toFAQ()">FAQ</li>
           <li id="blog_link" onclick="toBlog()">Blog</li>
           <li id="nav_login_ch" onclick="toLog()">Log in</li>
           <li id="nav_book" onclick="toBook()">Book Now</li>
-
-          <img id="user" src="../img/login.png" alt="user" onclick="toLog()">
+          <li id="user"><img src="../img/login.png" alt="user"></li>
+          <li id="username">Login</li>
         </ul>
         
       </div>
@@ -59,7 +59,7 @@
     <div id="main_box">
       <div id="addque_view_box">
         <div id="newque_box">
-          <textarea name="" id="" cols="30" rows="3" placeholder="Add question to FAQ..."></textarea>
+          <textarea name="" id="" cols="30" rows="3" placeholder="Start new post..."></textarea>
           <button>Post</button>
         </div>
         <h2>Current FAQ Featured on Website</h2>

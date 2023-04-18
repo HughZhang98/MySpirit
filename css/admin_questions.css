@@ -12,6 +12,7 @@
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
 #left_nav #bookings_nav {
   background-color: white;
 }
@@ -21,6 +22,9 @@
 main {
   display: flex;
   justify-content: space-between;
+}
+#left_nav #logout p { 
+  margin: 0px;
 }
 header h3{
   margin-bottom: 0px;

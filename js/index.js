@@ -27,7 +27,6 @@ function toBook() {
 	} else {
     window.location.href = "../pages/book.html";
   }
-  
 }
 
 function toLog() {
@@ -94,10 +93,10 @@ function setCookie(uname,uemail,upass, exdays){
   var d = new Date();
   d.setTime(d.getTime()+(exdays*24*60*60*1000));
   var expires = "expires="+d.toGMTString();
-	document.cookie = "username="+uname+ "; " + expires;
-  document.cookie = "email="+uemail+ "; " + expires;
-  document.cookie = "password="+upass+ "; " + expires;
-  document.cookie = uname+"="+upass;
+	document.cookie = "username="+uname+ "; " + expires+";path=/";
+  document.cookie = "email="+uemail+ "; " + expires+";path=/";
+  document.cookie = "password="+upass+ "; " + expires+";path=/";
+  document.cookie = uname+"="+upass+";path=/";
 }
 
 //sub question

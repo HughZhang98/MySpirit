@@ -137,12 +137,13 @@ function sub_login() {
       if (n == email && p == pass) {
         alert("Welcome "+ n);
         setTimeout(2500);
-        window.location.href = "../index.html";
+        window.location.href = "../pages/book.html";
       } else if (nemail == null || nemail == undefined || nemail == '') {
         alert("Don't have this account, please create an account")
       } else if (nemail != null || nemail != undefined || nemail != '' & pass == p){
         alert("Welcome "+ nemail);
         setCookie(email,email,nemail,0.0104);
+        window.location.href = "../pages/book.html";
       } else{
         alert("You have entered a wrong password")
       }
@@ -183,7 +184,7 @@ function sub_signup() {
     alert("Thanks for joining! Welcome "+ uname);
     setCookie(uname,email,pass,0.0104 );
     setTimeout(2500)
-    window.location.href = "../index.html";
+    window.location.href = "../pages/book.html";
   }
 
 }

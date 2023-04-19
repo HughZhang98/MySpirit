@@ -39,10 +39,15 @@
     <div id="book_box">
       <div id="date_box">
         <input type="datetime-local" id="book_date" value="2023-04-10">
+        <select name="book_type" id="btype">
+          <option value="Traditional Reiki Healing: $159">Traditional Reiki Healing: $159</option>
+          <option value="Clairvoyance: $139">Clairvoyance: $139</option>
+        </select>
         <input id='date_sbtn' type="button" value="OK" onclick="sub_booking()">
+        
       </div>
       <div id="address">
-        <p>
+        <p id="address_info">
           Location: <br>
           Restore MySpirit HQ<br>
           Address: 123 Address Road<br>

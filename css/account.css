@@ -30,6 +30,13 @@ h2 {
 }
 #account_box #account_nav ul #accLogout {
   border-bottom: none;
+  margin-top: 10%;
+  border: 2px solid white;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 #account_info {

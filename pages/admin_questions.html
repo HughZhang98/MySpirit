@@ -59,24 +59,24 @@
     <div id="main_box">
       <div id="addque_view_box">
         <div id="newque_box">
-          <textarea name="" id="" cols="30" rows="3" placeholder="Start new post..."></textarea>
-          <button>Post</button>
+          <textarea name="" id="adminQue" cols="30" rows="3" placeholder="Start new post..."></textarea>
+          <button onclick="postQue()">Post</button>
         </div>
         <h2>Current FAQ Featured on Website</h2>
         <div class="que_item">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
+          <p id="queInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
             elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo
             vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer
             commodo tortor ante, eu sollicitudin magna maximus sed. </p>
-          <button>Edit</button>
+          <button onclick="editQue()">Edit</button>
         </div>
 
         <div class="que_item">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
+          <p id="queInfo2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at ipsum leo. Aliquam hendrerit sem non eros
             elementum egestas. Suspendisse ut iaculis tellus. Sed condimentum egestas quam, eu pulvinar nunc commodo
             vitae. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer
             commodo tortor ante, eu sollicitudin magna maximus sed. </p>
-          <button>Edit</button>
+          <button onclick="editQue2()">Edit</button>
         </div>
       </div>
       
@@ -98,7 +98,8 @@
       
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              Hi RestoreMySpirit, I have a question abo.....
+              <span>Hi RestoreMySpirit, I have a question abo.....</span>
+              <img src="../img/reply.png" alt="" onclick="replywin()">
             </div>
           </div>
         </div>
@@ -113,7 +114,8 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-                Hi RestoreMySpirit, I have a question abo.....
+              <span>Hi RestoreMySpirit, I have a question abo.....</span>
+              <img src="../img/reply.png" alt="">
             </div>
           </div>
         </div>
@@ -128,7 +130,8 @@
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Hi RestoreMySpirit, I have a question abo.....
+              <span>Hi RestoreMySpirit, I have a question abo.....</span>
+              <img src="../img/reply.png" alt="">
             </div>
           </div>
         </div>
@@ -143,7 +146,8 @@
           </div>
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
-              Hi RestoreMySpirit, I have a question about the services that you offer. Am I able to book both of your services in one go? I want psychic medium and reiki healing. Thanks
+              <span>Hi RestoreMySpirit, I have a question about the services that you offer. Am I able to book both of your services in one go? I want psychic medium and reiki healing. Thanks</span>
+              <img src="../img/reply.png" alt="">
             </div>
           </div>
         </div>

@@ -21,7 +21,13 @@ function toBlog() {
 }
 
 function toBook() {
-  window.location.href = "../pages/book.html";
+  let uname = getCookie("username");
+  if (uname == null || uname == undefined || uname == ''){
+	  toLog()
+	} else {
+    window.location.href = "../pages/book.html";
+  }
+  
 }
 
 function toLog() {
@@ -104,12 +110,28 @@ function sub_booking() {
   if (uname == null || uname == undefined || uname == ''){
 		toLog()
 	} else {
-    date = document.getElementById("book_date").value;
+    let date = document.getElementById("book_date").value;
     if (date == null || date == undefined || date == '') {
       alert("Please select a date!")
     } else {
-      alert(date)
-      toHome()
+      if (uname == "admin") {
+        alert("Admin can not booking")
+      } else {
+        let btype = document.getElementById("btype").value;
+        let addr = "Location:\nRestore MySpirit HQ\nAddress: 123 Address Road\nMelbourne 3000 Vic\nAustralia"
+        let darr = date.split("T");
+        // time
+        let ymd = darr[0]
+        let hm = darr[1]
+        // book info
+        let popinfo = "Date: "+ ymd + "\nTime: " + hm +"\n\n"+btype+"\n\n"+addr;
+        let binfo =confirm("This is you booking, are you sure you want to make it? \n\n"+popinfo);
+	
+        if (binfo==true){
+          window.location.href = "../pages/account.html"
+	      }
+        
+      }
     }
   }
 }
@@ -197,5 +219,127 @@ function userDelBook(){
     setTimeout(2000);
     document.getElementById("bitem1").style.display = "none";
 	}
-	
+}
+function userDelBook2(){
+	let del =confirm("Are you sure you want to delete the Booking?");
+	if (del==true){
+    alert ("Success");
+    setTimeout(2000);
+    document.getElementById("bitem2").style.display = "none";
+	}
+}
+function userDelBook3(){
+	let del =confirm("Are you sure you want to delete the Booking?");
+	if (del==true){
+    alert ("Success");
+    setTimeout(2000);
+    document.getElementById("bitem3").style.display = "none";
+	}
+}
+
+function replywin() {
+	var reinfo = prompt("Reply","Thanks for your question..... ");
+	if (reinfo!=null && reinfo!=""){
+	    alert("Successful reply!")
+	}
+}
+
+//admin delete booking
+function cancelBook() {
+  let del =confirm("Are you sure you want to delete the Booking?");
+  if (del==true){
+    alert ("Success");
+    setTimeout(2000);
+    document.getElementById("adb1").style.display = "none";
+	}
+}
+function cancelBook2() {
+  let del =confirm("Are you sure you want to delete the Booking?");
+  if (del==true){
+    alert ("Success");
+    setTimeout(2000);
+    document.getElementById("adb2").style.display = "none";
+	}
+}
+function cancelBook3() {
+  let del =confirm("Are you sure you want to delete the Booking?");
+  if (del==true){
+    alert ("Success");
+    setTimeout(2000);
+    document.getElementById("adb3").style.display = "none";
+	}
+}
+
+//editBlog
+function editBlog() {
+  let oinfo = document.getElementById("blogInfo").innerText;
+  let edb = prompt("EDIT",oinfo);
+	if (edb!=null && edb!=""){
+	    alert("Successful reply!")
+      document.getElementById("blogInfo").innerText = edb;
+	}
+}
+
+function editBlog2() {
+  let oinfo = document.getElementById("blogInfo2").innerText;
+  let edb = prompt("EDIT",oinfo);
+	if (edb!=null && edb!=""){
+	    alert("Successful reply!")
+      document.getElementById("blogInfo2").innerText = edb;
+	}
+}
+
+//postBlog
+function postBlog() {
+  let p = document.getElementById("adminpost").value;
+  if (p != null || p != undefined || p != "") {
+    alert("Success!")
+    document.getElementById("adminpost").value = "";
+  } else {
+    alert("Please enter content");
+  }
+}
+
+//postque
+function postQue() {
+  let p = document.getElementById("adminQue").value;
+  if (p != null || p != undefined || p != "") {
+    alert("Success!")
+    document.getElementById("adminQue").value = "";
+  } else {
+    alert("Please enter content");
+  }
+}
+
+//edit que
+function editQue() {
+  let oinfo = document.getElementById("queInfo").innerText;
+  let edb = prompt("EDIT",oinfo);
+	if (edb!=null && edb!=""){
+	    alert("Successful reply!")
+      document.getElementById("queInfo").innerText = edb;
+	}
+}
+
+function editQue2() {
+  let oinfo = document.getElementById("queInfo2").innerText;
+  let edb = prompt("EDIT",oinfo);
+	if (edb!=null && edb!=""){
+	    alert("Successful reply!")
+      document.getElementById("queInfo2").innerText = edb;
+	}
+}
+
+//add FAQ
+function addFAQ() {
+  let t = document.getElementById("FAQtit").value;
+  let a = document.getElementById("FAQans").value;
+
+  if (t != null || t != undefined || t != "" || a != null || a != undefined || a != "") {
+    alert("Success!")
+    document.getElementById("FAQtit").value = "";
+    document.getElementById("FAQans").value = "";
+  } else {
+    alert("Please enter content");
+  }  
 }

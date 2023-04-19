@@ -45,7 +45,7 @@ header h3 {
 /* #date_box #date_sbtn {
   
 } */
-#date_box input {
+#date_box input, #date_box select {
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: rgb(224, 211, 252);

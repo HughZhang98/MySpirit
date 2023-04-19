@@ -2,10 +2,10 @@ window.onload = function () {
   let n = getCookie("username");
   console.log(document.cookie)
   if (n == null || n == undefined || n == '') {
-    document.getElementById("username").innerHTML = "Login";
+    document.getElementById("user").title = "Login";
     document.getElementById("nav_login_ch").innerHTML = "Login";
   } else {
-    document.getElementById("username").innerHTML = n;
+    document.getElementById("user").title = n;
     document.getElementById("nav_login_ch").innerHTML = n;
   }
 }

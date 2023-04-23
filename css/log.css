@@ -13,7 +13,7 @@ footer {
 }
 
 #log_box {
-  margin: 5% auto 5% auto;
+  margin: 4% auto 4% auto;
   background-color: white;
   padding: 3% 5%;
   width: 80%;
@@ -21,7 +21,7 @@ footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border-radius: 10px;
+  border-radius: 8px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -29,13 +29,13 @@ footer {
 }
 #log_box p {
   font-size: 1.5vw;
+  font-family: 'Manrope', sans-serif;
   margin-bottom: 5%;
   margin-top: 5%;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #log_box input, button {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Manrope', sans-serif;
   background-color: rgb(217, 217, 217);
   margin: 10% 0px;
   font-size: 1vw;
@@ -62,6 +62,8 @@ footer {
   justify-content: center;
   flex-direction: column;
   width: 300px;
+  height: 400px;
+  
   
 }
 
@@ -77,4 +79,3 @@ footer {
     border-bottom: 4px solid rgb(255, 199, 183);
   }
 }
-

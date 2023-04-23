@@ -23,6 +23,8 @@ header h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Manrope', sans-serif;
+
 }
 
 header #nav {
@@ -45,11 +47,21 @@ header #nav #nav_left {
   /* padding-top: 10px; */
 }
 header #nav #nav_left b {
-  margin-top: 10px;
-  margin-left: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: 'Gruppo', cursive;
+  font-size: 200%;
+  
 }
 header #nav #nav_left img {
   padding-bottom: 0px;
+}
+header #nav #nav_right ul {
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 100%;
+  
 }
 header #nav #nav_right img {
   margin-top: 5px;
@@ -160,9 +172,11 @@ header #nav_book, #ser_book{
 }
 
 #our_services h1{
-  font-size: 2vw;
+  font-size: 100%;
   text-align: center;
   margin: 3% 0px;
+  font-family: 'Manrope', sans-serif;
+
 }
 #our_services #hr{ 
   border: 1.5px solid black;
@@ -178,9 +192,9 @@ header #nav_book, #ser_book{
   margin-right: auto;
 }
 #ser_dis img {
-  border-radius: 25px;
+  border-radius: 5px;
   width: 100%;
-  -webkit-border-radius: 25px;
+  -webkit-border-radius: 5px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
@@ -189,13 +203,16 @@ header #nav_book, #ser_book{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 90%;
+  font-family: 'Manrope', sans-serif;
+
 }
+
 
 #ser_dis .ser_item div { 
   /* border: 1px solid black; */
-  width: 50%;
-  padding: 5%;
+  width: 60%;
+  padding: 0%;
 }
 
 #ser_dis .ser_item .ser_info p{ 
@@ -220,37 +237,46 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 3% 5%;
-  font-size: 1.5vw;
+  font-size: 120%;
   align-items: center;
   font-weight: bolder;
+  font-family: 'Gruppo', cursive;
 }
 
 footer #info_box p{
   margin-top: 30px;
-  font-size: 1vw;
+  font-size: 90%;
   font-weight: normal;
+  font-family: 'Manrope', sans-serif;
+
 }
 
 footer ul {
   display: flex;
+  
 }
+html, body {
+  height: 100%;
+  }
 
 footer li {
   margin: 20px;
-  padding: 10px 20px;
-  background-color: rgb(217, 217, 217);
+  padding: 10px 10px;
+  background-color: rgb(200, 183, 250);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+  
 }
 #footer_icon img{
-  width: 50px;
+  width: 40px;
 }
 @media screen and (max-width: 410px) {
   footer li {
-  margin: 10px;
+    margin: 10px;
+
   }
   /* #nav_login_ch {
     padding-right: 30%;

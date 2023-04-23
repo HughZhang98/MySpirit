@@ -3,13 +3,36 @@
 }
 #left_nav #bookings_nav {
   background-color: white;
+  font-family: 'Manrope', sans-serif;
+
+
 }
 #left_nav #blog_nav {
   background-color: rgb(245, 245, 245);
+  font-family: 'Manrope', sans-serif;
+
 }
+
+#left_nav #count_box{
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#left_nav #questions_nav {
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#left_nav #faq_nav{
+  font-family: 'Manrope', sans-serif;
+
+}
+
 main {
   display: flex;
   justify-content: space-between;
+  font-family: 'Manrope', sans-serif;
+
 
 }
 #post_view_box {
@@ -31,7 +54,7 @@ main {
 #post_view_box #newpost_box textarea{
   font-size: 1vw;
   padding: 5% 0px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Manrope', sans-serif;
   width: 100%;
   resize: vertical;
   /* background-color: rgb(217, 217, 217); */
@@ -109,3 +132,7 @@ main {
   font-size: 2vw;
 }
 
+.posted_item{
+  font-family: 'Manrope', sans-serif;
+
+}

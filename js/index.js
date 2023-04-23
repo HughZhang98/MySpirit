@@ -27,6 +27,7 @@ function toBook() {
 	} else {
     window.location.href = "../pages/book.html";
   }
+  
 }
 
 function toLog() {

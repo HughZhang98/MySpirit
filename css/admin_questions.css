@@ -11,13 +11,27 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+
 }
 
 #left_nav #bookings_nav {
   background-color: white;
+  font-family: 'Manrope', sans-serif;
+
 }
 #left_nav #questions_nav {
   background-color: rgb(245, 245, 245);
+  font-family: 'Manrope', sans-serif;
+}
+#left_nav #blog_nav{
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#left_nav #faq_nav{
+  font-family: 'Manrope', sans-serif;
+
 }
 main {
   display: flex;
@@ -28,6 +42,7 @@ main {
 }
 header h3{
   margin-bottom: 0px;
+
 }
 #addque_view_box {
   width: 65%;
@@ -48,7 +63,7 @@ header h3{
 #addque_view_box #newque_box textarea{
   font-size: 1vw;
   padding: 5% 0px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Manrope', sans-serif;
   width: 100%;
   resize: vertical;
   /* background-color: rgb(217, 217, 217); */
@@ -129,12 +144,26 @@ header h3{
 #inbox #inbox_title h3{
   margin-bottom: 0px;
   margin-left: 2%;
+  font-family: 'Manrope', sans-serif;
+
 }
 .card-header h2 button, .card-body{
   color: black;
+  font-family: 'Manrope', sans-serif;
+
 }
 .card-body img{ 
   width: 20px;
   float: right;
+}
+
+.que_item{
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#addque_view_box h2{
+  font-family: 'Manrope', sans-serif;
+
 }
 

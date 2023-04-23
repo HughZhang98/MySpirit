@@ -7,9 +7,35 @@ main {
 }
 #left_nav #bookings_nav {
   background-color: rgb(245, 245, 245);
+  font-family: 'Manrope', sans-serif;
+
+
 }
+
+#blog_nav{
+  font-family: 'Manrope', sans-serif;
+}
+
+#questions_nav{
+  font-family: 'Manrope', sans-serif;
+}
+
+#faq_nav{
+  font-family: 'Manrope', sans-serif;
+
+}
+
+
 #main_box h1{
   color: rgb(144, 144, 144);
+  font-family: 'Manrope', sans-serif;
+
+}
+
+
+#logout{
+  font-family: 'Manrope', sans-serif;
+
 }
 
 .ad_bookings {
@@ -25,11 +51,15 @@ main {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  font-family: 'Manrope', sans-serif;
+
 }
 .ad_bbut_box {
   margin-top: 5%;
   width: 100%;
   font-size: 1.5vw;
+  font-family: 'Manrope', sans-serif;
+
 }
 .ad_bookings img {
   width: 50px;

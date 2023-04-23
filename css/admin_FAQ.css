@@ -3,9 +3,19 @@
 }
 #left_nav #bookings_nav {
   background-color: white;
+  font-family: 'Manrope', sans-serif;
+
 }
 #left_nav #faq_nav {
   background-color: rgb(245, 245, 245);
+  font-family: 'Manrope', sans-serif;
+}
+#left_nav #blog_nav{
+  font-family: 'Manrope', sans-serif;
+}
+#left_nav #questions_nav{
+  font-family: 'Manrope', sans-serif;
+
 }
 main {
   display: flex;
@@ -30,7 +40,7 @@ main {
 #addque_view_box #newque_box textarea{
   font-size: 1vw;
   padding: 5% 0px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Manrope', sans-serif;
   width: 100%;
   resize: vertical;
   /* background-color: rgb(217, 217, 217); */
@@ -101,6 +111,13 @@ main {
   border: none;
   border-bottom: 2px solid rgb(82, 77, 77);
   font-size: 1.3vw;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#main_box h2{
+  font-family: 'Manrope', sans-serif;
+
 }
 #main_box #addFAQ_box button {
   background-color: rgb(255, 199, 183);
@@ -114,4 +131,11 @@ main {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#logout{
+  font-family: 'Manrope', sans-serif;
+
 }
